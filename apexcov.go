@@ -82,7 +82,7 @@ func apexcov(c *cli.Context) error {
 			body += "SF:" + dir + "/force-app/main/default/classes/" + class.ApexClassOrTrigger.Name + ".cls\n"
 		} else {
 			//body += "SF:" + dir + "/src/triggers/" + class.ApexClassOrTrigger.Name + ".cls\n"
-			body += "SF:" + dir + "/force-app/main/default/triggers/" + class.ApexClassOrTrigger.Name + ".cls\n"
+			body += "SF:" + dir + "/force-app/main/default/triggers/" + class.ApexClassOrTrigger.Name + ".trigger\n"
 
 		}
 
